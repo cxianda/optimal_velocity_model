@@ -8,7 +8,7 @@ OVM_functions.py contains all functions for the OVM model
 @author: paul
 """
 
-from f90_subroutines import subs as ovmf90
+from f90_subroutines.f90 import subs as ovmf90
 import numpy as np
 
 
